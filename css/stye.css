@@ -1,0 +1,27 @@
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  padding: 15px;
+  background-color: #f6f4f4;
+  border-right: 1px solid white;
+  font-size: 16px;
+  font-weight: bold;
+}
+ul li:hover {
+  background-color: #ddd;
+}
+ul .active {
+  background-color: #ddd;
+}
+
+.content div {
+  background-color: #ddd;
+  padding: 50px;
+}
+.content div:not(:first-child) {
+  display: none;
+}/*# sourceMappingURL=stye.css.map */
